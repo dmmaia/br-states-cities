@@ -1,8 +1,21 @@
 {
-  "name": "br-states-citys",
+  "name": "br-states-cities",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "David Maia",
+  "description": "A simple lib to get all brasilian states and filtered cities by state.",
   "license": "MIT",
+  "scripts": {
+    "build" : "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmmaia/br-states-cities.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dmmaia/br-states-cities/issues"
+  },
+  "homepage": "https://github.com/dmmaia/br-states-cities#readme",
   "devDependencies": {
     "tslint": "^6.1.3",
     "typescript": "^4.5.2"
