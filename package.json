@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "David Maia",
-  "description": "A simple lib to get all brasilian states and filtered cities by state.",
+  "description": "A simple lib to get all brazilian states and filtered cities by state.",
   "license": "MIT",
   "scripts": {
     "build" : "tsc"
