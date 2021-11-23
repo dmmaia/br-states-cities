@@ -6,7 +6,7 @@ function getStates(){
 }
 
 function getCitiesByInitials(uf:string){
-  const state = statesJson.UF[statesJson.UF.findIndex(state=>state.sigla===uf)]
+  const state = statesJson.UF[statesJson.UF.findIndex(state=>state.sigla===uf.toUpperCase())]
   if(!state){
     return {error: "Sigla fornecida é inválida"}
   }
@@ -16,7 +16,7 @@ function getCitiesByInitials(uf:string){
 }
 
 function getCitiesByStateName(nome:string){
-  const state = statesJson.UF[statesJson.UF.findIndex(state=>state.nome===nome)]
+  const state = statesJson.UF[statesJson.UF.findIndex(state=>state.nome.toLowerCase()===nome.toLowerCase())]
   if(!state){
     return {error: "Estado fornecido é inválido"}
   }

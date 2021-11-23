@@ -1,5 +1,9 @@
 ## Getting started
 
+``` javascript
+    npm i vue-excel-xlsx
+```
+
 List all states
 
 ``` javascript
