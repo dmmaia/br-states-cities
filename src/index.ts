@@ -1,3 +1,3 @@
-import {getCitiesByInitials,getStates} from "./states"
+import {getCitiesByInitials, getStates, getCitiesByStateName} from "./states"
 
-export {getStates, getCitiesByInitials}
+export {getStates, getCitiesByInitials, getCitiesByStateName}
