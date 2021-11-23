@@ -1,7 +1,7 @@
 ## Getting started
 
 ``` javascript
-    npm i vue-excel-xlsx
+    npm i br-states-cities
 ```
 
 List all states
